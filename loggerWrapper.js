@@ -1,4 +1,4 @@
-import Logger from "logger/logger";
+import Logger from "./logger";
 
 const loggerWrapper = (loggerFunction, fileName) =>  (...args) => loggerFunction(fileName, ...args);
 export const LoggerWithFile = (fileName) => {
@@ -6,8 +6,8 @@ export const LoggerWithFile = (fileName) => {
     info: loggerWrapper(Logger.info, fileName),
     debug: loggerWrapper(Logger.debug, fileName),
     dLog: loggerWrapper(Logger.dLog, fileName),
-    Warn: loggerWrapper(Logger.Warn, fileName),
-    Error: loggerWrapper(Logger.Error, fileName),
+    warn: loggerWrapper(Logger.warn, fileName),
+    error: loggerWrapper(Logger.error, fileName),
   };
 };
 
