@@ -3,6 +3,7 @@ let config: any;
 
 try {
   // Attempt to dynamically import the logger.config file
+  // @ts-ignore
   config = require('../../logger.config')?.default;
 } catch (error) {
   console.warn(

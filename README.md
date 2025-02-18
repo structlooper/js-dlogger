@@ -7,7 +7,23 @@
 
 ---
 
-
+<p align="center">
+  <a href="https://www.npmjs.com/package/js-dlogger">
+    <img src="https://img.shields.io/npm/v/js-dlogger?color=brightgreen&label=npm&logo=npm" alt="npm version" />
+  </a>
+  <a href="https://github.com/structlooper/js-dlogger/issues">
+    <img src="https://img.shields.io/github/issues/structlooper/js-dlogger?color=yellow&label=issues&logo=github" alt="GitHub issues" />
+  </a>
+  <a href="https://github.com/structlooper/js-dlogger">
+    <img src="https://img.shields.io/github/stars/structlooper/js-dlogger?color=blue&label=GitHub%20Stars&logo=github" alt="GitHub stars" />
+  </a>
+  <a href="https://github.com/structlooper/js-dlogger/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/structlooper/js-dlogger" alt="License" />
+  </a>
+  <a href="https://www.npmjs.com/package/js-dlogger">
+    <img src="https://img.shields.io/npm/dt/js-dlogger?color=purple&label=Downloads&logo=npm" alt="npm downloads" />
+  </a>
+</p>
 
 ## **Installation**
 
@@ -98,7 +114,7 @@ const Logger =  LoggerWithFile("Login.jsx")
 ---
 ## **📜 License**
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/structlooper/js-dlogger/blob/master/LICENSE) file for details.
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "js-dlogger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight and efficient logging utility for JavaScript applications. This package provides multiple logging functions such as info(), dLog(), warn(), debug and error(), displaying logs in the console along with the filename for better debugging and traceability. Perfect for developers looking for a simple yet powerful logging solution.",
   "main": "logger.ts",
   "scripts": {
