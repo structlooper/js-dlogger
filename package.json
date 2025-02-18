@@ -1,6 +1,6 @@
 {
   "name": "js-dlogger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and efficient logging utility for JavaScript applications. This package provides multiple logging functions such as info(), dLog(), warn(), debug and error(), displaying logs in the console along with the filename for better debugging and traceability. Perfect for developers looking for a simple yet powerful logging solution.",
   "main": "logger.ts",
   "scripts": {
@@ -24,8 +24,8 @@
     "nextjs-logger"
   ],
   "author": {
-    "name" : "Deepak Kumar",
-    "url" : "https://github.com/structlooper"
+    "name": "Deepak Kumar",
+    "url": "https://github.com/structlooper"
   },
   "license": "MIT",
   "bugs": {
