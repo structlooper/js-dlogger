@@ -33,26 +33,26 @@ interface Logger {
 
 const Logger: Logger = {
   info: (taq: string, indicator: string, message: string = "UNIVERSAL") => {
-    console.log(`[INFO][${taq}][${indicator}]`, message);
+    console.log(`\x1b[30m\x1b[42m[INFO][${taq}]\x1b[0m[${indicator}]`, message);
   },
   debug: (taq: string, indicator: string, message: string = "UNIVERSAL") => {
     if (isDev) {
-      console.log(`[DEV][${taq}][${indicator}]`, message);
+      console.log(`\x1b[30m\x1b[44m[DEV][${taq}]\x1b[0m[${indicator}]`, message);
     }
   },
   dLog: (taq: string, indicator: string, data: any = " ") => {
     if (isDev) {
-      console.log('---------------------------------\n');
-      console.log(`[DEV][${taq}]`, indicator);
+      console.log('\x1b[30m\x1b[43m---------------------------------\x1b[0m');
+      console.log(`\x1b[30m\x1b[43m[DEV][${taq}]\x1b[0m[${indicator}]`);
       console.log(data);
-      console.log('---------------------------------\n');
+      console.log('\x1b[30m\x1b[43m---------------------------------\x1b[0m');
     }
   },
   warn: (taq: string, indicator: string, message: string = "UNIVERSAL") => {
-    console.warn(`[WARN][${taq}][${indicator}]`, message);
+    console.warn(`\x1b[30m\x1b[43m[WARN]\x1b[0m\x1b[30m\x1b[43m[${taq}]\x1b[0m[${indicator}]`, message);
   },
   error: (taq: string, indicator: string, message: string = "UNIVERSAL") => {
-    console.error(`[ERROR][${taq}][${indicator}]`, message);
+    console.error(`\x1b[30m\x1b[41m[ERROR]\x1b[0m\x1b[30m\x1b[41m[${taq}]\x1b[0m[${indicator}]`, message);
   }
 };
 
